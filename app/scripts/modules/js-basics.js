@@ -4,8 +4,7 @@
     var JS_BASICS={};
 
     JS_BASICS.isNumberEven = function(i) {
-        // i will be an integer.
-        // Return true if it's even, and false if it isn't.
+      return i%2 === 0;
     };
 
     JS_BASICS.getFileExtension = function(str) {
