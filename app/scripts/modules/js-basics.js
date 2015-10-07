@@ -1,6 +1,6 @@
 (function(global) {
     'use strict';
-
+// j'ai changé le fichié
     var JS_BASICS={};
 
     JS_BASICS.isNumberEven = function(i) {
