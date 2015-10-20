@@ -8,6 +8,14 @@
     };
 
     JS_BASICS.getFileExtension = function(str) {
+        
+        var index = str.indexOf('.');
+        if(index === null){ return false;}
+        else{  res = str.split("."); 
+               return res[2];      }   
+         
+               
+
         // str will be a string, but it may not have a file extension.
         // Return the file extension (with no period) if it has one, otherwise false
     };
