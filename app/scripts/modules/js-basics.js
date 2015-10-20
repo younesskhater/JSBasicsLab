@@ -11,7 +11,7 @@
         
         var index = str.indexOf('.');
         if(index === null){ return false;}
-        else{  res = str.split("."); 
+        else{ var res = str.split("."); 
                return res[2];      }   
          
                
