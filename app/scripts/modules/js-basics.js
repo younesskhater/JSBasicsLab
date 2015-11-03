@@ -54,7 +54,7 @@
          if(typeof arr[i] == "object"){
            sum += JS_BASICS.nestedSum(arr[i]);
          }
-        else if(Number.isInteger(arr[i])){
+        else if( typeof arr[i] == "number"){
         sum += arr[i];
          }
        }
